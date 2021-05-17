@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Barbaneagra Artur](https://up.htmlacademy.ru/htmlcss/31/user/1711331).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий (sench) Железцов](https://htmlacademy.ru/profile/sench).
 
 ---
 
