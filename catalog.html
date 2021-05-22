@@ -1,96 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ru">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Девайс</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <section>
-            <a href="index.html"> <img src="https://via.placeholder.com/163x35" alt="logo"> </a>
-            <ul>
-              <li>
-                <div>
-                  <label for="search"> <img src="https://via.placeholder.com/16x16" alt="search-ico"></label>
-                  <input type="text" id="search" placeholder="Поиск по сайту">
-                </div>
-              </li>
-              <li>
-                <ul>
-                  <li>
-                    <a href="#">
-                      <img src="https://via.placeholder.com/13x14" alt="icon_user">
-                      <span>Войти</span>
-                    </a>
-                  </li>
-                  <li>
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <img src="https://via.placeholder.com/14x14" alt="icon_chart">
-                          <span>Сравнить</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img src="https://via.placeholder.com/10x10" alt="icon_cart">
-                          <span>Корзина</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="catalog.html">Каталог товаров</a>
-                <img src="https://via.placeholder.com/15x15" alt="icon_submenu">
-                <ul>
-                  <li>
-                    <ul>
-                      <li>
-                        <a href="#">Виртуальная реальность</a>
-                      </li>
-                      <li>
-                        <a href="#">Моноподы для селфи</a>
-                      </li>
-                      <li>
-                        <a href="#">Экшн-камеры</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <ul>
-                      <li>
-                        <a href="#">Фитнес-браслеты</a>
-                      </li>
-                      <li>
-                        <a href="#">Умные часы</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Квадрокоптер</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <ul>
-                  <li>
-                    <ul>
-                      <li><a href="#">Доставка</a></li>
-                      <li><a href="#">Гарантия</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Контакты</a></li>
-                </ul>
-              </li>
-            </ul>
-            <img src="https://via.placeholder.com/100x7" alt="line">
-          </section>
+      <nav>
+        <h2>Главное меню</h2>
+          <a href="index.html"><img src="https://via.placeholder.com/163x35" alt="logo"></a>
+          <ul>
+            <li>
+              <label for="search"><img src="https://via.placeholder.com/16x16" alt="search-ico"></label>
+              <input type="text" id="search" placeholder="Поиск по сайту">
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <img src="https://via.placeholder.com/8x9" alt="icon_logout">
+                  <a href="#">Валентин Петухов</a>
+                  <a href="#">Выйти</a>
+                </li>
+                <li>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <img src="https://via.placeholder.com/14x14" alt="icon_chart">
+                        <span>Сравнить</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="https://via.placeholder.com/10x10" alt="icon_cart">
+                        <span>Корзина</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="catalog.html">Каталог товаров</a>
+              <img src="https://via.placeholder.com/15x15" alt="icon_submenu">
+              <ul>
+                <li>
+                  <ul>
+                    <li>
+                      <a href="#">Виртуальная реальность</a>
+                    </li>
+                    <li>
+                      <a href="#">Моноподы для селфи</a>
+                    </li>
+                    <li>
+                      <a href="#">Экшн-камеры</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li>
+                      <a href="#">Фитнес-браслеты</a>
+                    </li>
+                    <li>
+                      <a href="#">Умные часы</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Квадрокоптер</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Гарантия</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </li>
+          </ul>
+          <img src="https://via.placeholder.com/100x7" alt="line">
+      </nav>
     </header>
     <main>
       <section>
@@ -105,7 +103,7 @@
       </section>
       <section>
         <h2>Фильтр товаров</h2>
-        <form method="get" action="">
+        <form method="get" action="https://echo.htmlacademy.ru">
           <fieldset>
             <legend>Стоимость</legend>
             <input type="range" min="0" max="10000" step="100" value="5000">
@@ -152,6 +150,7 @@
         </form>
       </section>
       <section>
+        <h2>список товаров</h2>
         <nav>
           <h2>сортировка:</h2>
           <ul>
@@ -200,87 +199,89 @@
         </ul>
         <footer>
           <ul>
-            <button type="button" disabled>Назад</button>
-            <ul>
-              <li><a>1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-            </ul>
-            <button type="button">Вперед</button>
+            <li><button type="button" disabled>Назад</button></li>
+            <li>
+              <ul>
+                <li><a>1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+              </ul>
+            </li>
+            <li><button type="button">Вперед</button></li>
           </ul>
         </footer>
       </section>
     </main>
     <footer>
-        <ul>
-          <li>
-            <img src="https://via.placeholder.com/163x34" alt="logo">
-            <p>
-              Санкт-Петербург, набережная <br>
-              реки Карповки, 5, литера П.
-            </p>
-            <img src="https://via.placeholder.com/80x7" alt="footer_line">
-          </li>
-          <li>
-            <ul>
-              <li>
-                <ul>
-                  <li>
-                    <a href="#">доставка</a>
-                  </li>
-                  <li>
-                    <a href="#">гарантия</a>
-                  </li>
-                  <li>
-                    <a href="#">контакты</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <ul>
-                  <li>
-                    <a href="">
-                      <img src="https://via.placeholder.com/32x32" alt="icon_fb">
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src="https://via.placeholder.com/32x32" alt="icon_inst">
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src="https://via.placeholder.com/32x32" alt="icon_twitter">
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <img src="https://via.placeholder.com/8x9" alt="icon_logout">
-                <a href="#">Валентин Петухов</a>
-              </li>
-              <li>
-                <a href="#">Выйти</a>
-              </li>
-              <li>
-                <img src="https://via.placeholder.com/8x9" alt="icon_chart">
-                <a href="#">Сравнить</a>
-              </li>
-              <li>
-                <img src="https://via.placeholder.com/8x9" alt="icon_cart">
-                <a href="#">Корзина</a>
-              </li>
-            </ul>
-            <a href="tel:+78005558628">Тел.: +7 800 555-86-28</a>
-            <a href="https://up.htmlacademy.ru/htmlcss/31/project/device#device-3-4">
-              <img src="https://via.placeholder.com/115x33" alt="logo_htmlacademy">
-            </a>
-          </li>
-        </ul>
-      </footer>
-</body>
+      <ul>
+        <li>
+          <img src="https://via.placeholder.com/163x34" alt="logo">
+          <p>
+            Санкт-Петербург, набережная <br>
+            реки Карповки, 5, литера П.
+          </p>
+          <img src="https://via.placeholder.com/80x7" alt="footer_line">
+        </li>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <a href="#">доставка</a>
+                </li>
+                <li>
+                  <a href="#">гарантия</a>
+                </li>
+                <li>
+                  <a href="#">контакты</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="https://via.placeholder.com/32x32" alt="icon_fb">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="https://via.placeholder.com/32x32" alt="icon_inst">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="https://via.placeholder.com/32x32" alt="icon_twitter">
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li>
+              <img src="https://via.placeholder.com/8x9" alt="icon_logout">
+              <a href="#">Валентин Петухов</a>
+            </li>
+            <li>
+              <a href="#">Выйти</a>
+            </li>
+            <li>
+              <img src="https://via.placeholder.com/8x9" alt="icon_chart">
+              <a href="#">Сравнить</a>
+            </li>
+            <li>
+              <img src="https://via.placeholder.com/8x9" alt="icon_cart">
+              <a href="#">Корзина</a>
+            </li>
+          </ul>
+          <a href="tel:+78005558628">Тел.: +7 800 555-86-28</a>
+          <a href="https://htmlacademy.ru/intensive/htmlcss">
+            <img src="https://via.placeholder.com/115x33" alt="logo_htmlacademy">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
